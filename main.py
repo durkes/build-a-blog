@@ -53,7 +53,7 @@ def newpost():
 
 @app.route('/')
 def index():
-    return redirect('/')
+    return redirect('/blog')
 
 
 if __name__ == '__main__':
